@@ -67,6 +67,7 @@ class Client {
 
 			case 'POST':
 				curl_setopt($ch, CURLOPT_POST, 1);
+				curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 			break;
 
 			case 'DELETE':
@@ -75,10 +76,10 @@ class Client {
 
 			case 'PUT':
 				curl_setopt($ch, CURLOPT_PUT, 1);
+				curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 			break;
 		}
 
-		curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 
 		$output = curl_exec($ch);
 
