@@ -57,9 +57,6 @@ class Client {
 		curl_setopt($ch, CURLOPT_URL, $request->getUrl () . '?' . $request->getRequestString ());
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
-		$headers = array ();
-		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-
 		switch ($method)
 		{
 			case 'GET':
