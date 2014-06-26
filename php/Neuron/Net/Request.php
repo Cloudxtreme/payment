@@ -19,6 +19,7 @@ class Request {
 	private $user;
 	private $requeststring;
 	private $body;
+	private $headers = array ();
 
 	public function __construct ($url = null)
 	{
@@ -107,6 +108,19 @@ class Request {
 	public function setBody ($body)
 	{
 		$this->body = $body;
+	}
+
+	public function setJSON ($body)
+	{
+		$this->setBody (json_encode ($body));
+
+		$this->headers[] = 'Content-Type: application/json';
+		$this->headers[] = 'Content-Length: ' . strlen ($this->getBody ());
+	}
+
+	public function getHeaders ()
+	{
+		return $this->headers;
 	}
 
 	public function setRequestBody ($body)

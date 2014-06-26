@@ -62,7 +62,7 @@ class CWResellerClient {
 		$body['name'] = $accountName;
 		$body['plan'] = $planId;
 
-		$request->setBody (json_encode ($body));
+		$request->setJSON ($body);
 
 		$request->setQuery ($this->sign (json_encode ($body)));
 

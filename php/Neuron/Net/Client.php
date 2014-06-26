@@ -80,6 +80,7 @@ class Client {
 			break;
 		}
 
+		curl_setopt($ch, CURLOPT_HTTPHEADER, $request->getHeaders ());
 
 		$output = curl_exec($ch);
 
