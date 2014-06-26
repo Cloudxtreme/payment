@@ -37,6 +37,7 @@ class CWResellerClient {
 		openssl_sign ($json, $signature, $privatekey);
 
 		$get['signature'] = base64_encode ($signature);
+		$get['debug'] = 1;
 
 		return $get;
 	}
@@ -53,6 +54,8 @@ class CWResellerClient {
 
 	public function createAccount ($accountName, $planId)
 	{
+		echo '<h1>Creating account</h1>';
+
 		$request = new Request (CWRESELLER_API . 'reseller/' . CWRESELLER_RESELLER_ID . '/account');
 
 		$body = array ();
@@ -65,16 +68,21 @@ class CWResellerClient {
 
 		$response = Client::getInstance ()->post ($request);
 
-		echo "<h1>Posting to</h1>";
+		echo "<h2>Posting to</h2>";
 		var_dump ($request->getUrl ());
 
-		echo "<h1>Content</h1>";
+		echo "<h2>Content</h2>";
 		var_dump ($request->getBody ());
 
-		echo "<h1>Response</h1>";
+		echo "<h2>Response</h2>";
 		var_dump ($response->getBody());
 
-		return $response->data ();
+		$data = $response->data ();
+
+		$id = $data['account']['id'];
+
+		echo '<h2>GOT ID ' . $id . '</h2>';
+		return $id;
 	}
 
 
