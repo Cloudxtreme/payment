@@ -58,7 +58,7 @@
       <file leaf-file-name="registration.phpt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/registration.phpt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.36178344" vertical-offset="706" max-vertical-offset="1710">
+            <state line="59" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.4535032" vertical-offset="706" max-vertical-offset="1710">
               <folding />
             </state>
           </provider>
@@ -462,7 +462,11 @@
       <created>1403801128282</created>
       <updated>1403801128282</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Plan list.">
+      <created>1403801152293</created>
+      <updated>1403801152293</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -600,7 +604,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/registration.phpt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.36178344" vertical-offset="706" max-vertical-offset="1710">
+        <state line="59" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.4535032" vertical-offset="706" max-vertical-offset="1710">
           <folding />
         </state>
       </provider>
