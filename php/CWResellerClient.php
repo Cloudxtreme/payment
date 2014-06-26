@@ -44,7 +44,7 @@ class CWResellerClient {
 
 	public function getPlans ()
 	{
-		$request = new Request (CWRESELLER_API . 'reseller/' . CWRESELLER_RESELLER_ID . '/plans');
+		$request = new Request (CWRESELLER_API . '1/resellers/' . CWRESELLER_RESELLER_ID . '/plans');
 
 		$request->setQuery ($this->sign ());
 		$response = Client::getInstance ()->get ($request);
@@ -56,7 +56,7 @@ class CWResellerClient {
 	{
 		echo '<h1>Creating account</h1>';
 
-		$request = new Request (CWRESELLER_API . 'reseller/' . CWRESELLER_RESELLER_ID . '/account');
+		$request = new Request (CWRESELLER_API . '1/resellers/' . CWRESELLER_RESELLER_ID . '/accounts');
 
 		$body = array ();
 		$body['name'] = $accountName;
