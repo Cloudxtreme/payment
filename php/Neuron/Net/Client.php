@@ -78,7 +78,6 @@ class Client {
 			break;
 		}
 
-		curl_setopt($ch, CURLOPT_POST, 1);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 
 		$output = curl_exec($ch);

@@ -1,5 +1,8 @@
 <form method="POST">
     <fieldset>
+
+        <legend>Your information</legend>
+
         <ol>
 
             <li>
@@ -28,6 +31,35 @@
             </li>
 
         </ol>
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Your account</legend>
+
+        <ol>
+            <li>
+                <label for="accountname"><?php echo __('Account name'); ?></label>
+                <input type="text" id="accountname" name="accountname" />
+            </li>
+        </ol>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Select a plan</legend>
+
+        <ol>
+
+            <?php foreach ($plans as $v) { ?>
+                <li>
+                    <input type="radio" name="plan<?php echo $v['id']; ?>" value="1" />
+                    <label for="plan1"><?php echo $v['name']; ?></label>
+                </li>
+            <?php } ?>
+        </ol>
+
     </fieldset>
 
     <fieldset>
