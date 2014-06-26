@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de664835-0d3b-4db0-987a-aa079c773d75" name="Default" comment="Plan list.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/CWResellerClient.php" afterPath="$PROJECT_DIR$/php/CWResellerClient.php" />
+    <list default="true" id="de664835-0d3b-4db0-987a-aa079c773d75" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cloudwalkers Order.iws" />
@@ -26,86 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="include.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include.php">
+      <file leaf-file-name="callback.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/callback.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="38" selection-start="708" selection-end="708" vertical-scroll-proportion="-15.407408" vertical-offset="322" max-vertical-offset="1080">
-              <folding>
-                <element signature="e#6#87#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="311" selection-end="311" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="1" selection-start="654" selection-end="654" vertical-scroll-proportion="-14.185185" vertical-offset="175" max-vertical-offset="990">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.phpt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/registration.phpt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1710">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CWResellerClient.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="54" selection-start="770" selection-end="770" vertical-scroll-proportion="0.48523748" vertical-offset="324" max-vertical-offset="2898">
-              <folding>
-                <element signature="e#6#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Request.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/Neuron/Net/Request.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="60" selection-start="1765" selection-end="1765" vertical-scroll-proportion="-66.0" vertical-offset="216" max-vertical-offset="2610">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="public.pem" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/signature/public.pem">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="10" selection-start="75" selection-end="75" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="468">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="360">
+            <state line="11" column="40" selection-start="253" selection-end="253" vertical-scroll-proportion="0.25417203" vertical-offset="0" max-vertical-offset="779">
               <folding />
             </state>
           </provider>
@@ -133,8 +67,8 @@
         <option value="$PROJECT_DIR$/templates/registration.phpt" />
         <option value="$PROJECT_DIR$/php/Neuron/Net/Request.php" />
         <option value="$PROJECT_DIR$/php/Neuron/Net/Client.php" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/php/CWResellerClient.php" />
+        <option value="$PROJECT_DIR$/test.php" />
       </list>
     </option>
   </component>
@@ -485,7 +419,11 @@
       <created>1403803151785</created>
       <updated>1403803151785</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Plan list.">
+      <created>1403803825702</created>
+      <updated>1403803825703</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -612,19 +550,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
+    <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="360">
+        <state line="29" column="50" selection-start="471" selection-end="471" vertical-scroll-proportion="0.25417203" vertical-offset="324" max-vertical-offset="2898">
+          <folding>
+            <element signature="e#6#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
+    <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="54" selection-start="770" selection-end="770" vertical-scroll-proportion="0.48523748" vertical-offset="324" max-vertical-offset="2898">
-          <folding>
-            <element signature="e#6#28#0" expanded="true" />
-          </folding>
+        <state line="11" column="40" selection-start="253" selection-end="253" vertical-scroll-proportion="0.25417203" vertical-offset="0" max-vertical-offset="779">
+          <folding />
         </state>
       </provider>
     </entry>
