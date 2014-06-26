@@ -25,7 +25,7 @@ class CWResellerClient {
 	{
 		$json = json_encode ($data);
 
-		$privatekey = openssl_get_privatekey (file_get_contents (CWRESELLER_PRIVATE_KEY));
+		$privatekey = openssl_get_privatekey ('file://' . CWRESELLER_PRIVATE_KEY);
 
 		$signature = null;
 		openssl_sign ($json, $signature, $privatekey);
@@ -41,10 +41,14 @@ class CWResellerClient {
 		$data['time'] = time ();
 		$data['random'] = mt_rand ();
 		$data['signature'] = $this->sign ($data);
+		$data['reseller'] = CWRESELLER_RESELLER_ID;
 
 		$request->setQuery ($data);
 
 		$response = Client::getInstance ()->get ($request);
+
+		var_dump ($response->getBody());
+
 		return $response->data ();
 	}
 } 

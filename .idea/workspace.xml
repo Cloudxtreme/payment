@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de664835-0d3b-4db0-987a-aa079c773d75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/Neuron/Core/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/CWResellerClient.php" afterPath="$PROJECT_DIR$/php/CWResellerClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/config.php" afterPath="$PROJECT_DIR$/php/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cloudwalkers Order.iws" />
@@ -47,7 +48,7 @@
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="31" selection-start="776" selection-end="798" vertical-scroll-proportion="-20.851852" vertical-offset="157" max-vertical-offset="936">
+            <state line="21" column="1" selection-start="515" selection-end="515" vertical-scroll-proportion="-8.185185" vertical-offset="157" max-vertical-offset="954">
               <folding />
             </state>
           </provider>
@@ -65,7 +66,7 @@
       <file leaf-file-name="CWResellerClient.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.16816431" vertical-offset="139" max-vertical-offset="990">
+            <state line="25" column="36" selection-start="343" selection-end="343" vertical-scroll-proportion="0.35301667" vertical-offset="175" max-vertical-offset="1062">
               <folding>
                 <element signature="e#6#28#0" expanded="true" />
               </folding>
@@ -77,7 +78,12 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="2" selection-start="38" selection-end="38" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="468">
-              <folding />
+              <folding>
+                <marker date="1403789581090" expanded="true" signature="46:169" placeholder="..." />
+                <marker date="1403789581090" expanded="true" signature="55:65" placeholder="..." />
+                <marker date="1403789581090" expanded="true" signature="74:160" placeholder="..." />
+                <marker date="1403789581090" expanded="true" signature="98:151" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,11 +104,11 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/CWClient.php" />
         <option value="$PROJECT_DIR$/signature/.htaccess" />
-        <option value="$PROJECT_DIR$/php/config.php" />
         <option value="$PROJECT_DIR$/include.php" />
-        <option value="$PROJECT_DIR$/php/CWResellerClient.php" />
         <option value="$PROJECT_DIR$/php/Neuron/Net/Request.php" />
         <option value="$PROJECT_DIR$/php/bootstrap.php" />
+        <option value="$PROJECT_DIR$/php/config.php" />
+        <option value="$PROJECT_DIR$/php/CWResellerClient.php" />
       </list>
     </option>
   </component>
@@ -340,7 +346,11 @@
       <created>1403792568094</created>
       <updated>1403792568094</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Initial commit.">
+      <created>1403792592456</created>
+      <updated>1403792592456</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -411,7 +421,12 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="2" selection-start="38" selection-end="38" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="468">
-          <folding />
+          <folding>
+            <marker date="1403789581090" expanded="true" signature="46:169" placeholder="..." />
+            <marker date="1403789581090" expanded="true" signature="55:65" placeholder="..." />
+            <marker date="1403789581090" expanded="true" signature="74:160" placeholder="..." />
+            <marker date="1403789581090" expanded="true" signature="98:151" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -429,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="31" selection-start="776" selection-end="798" vertical-scroll-proportion="-20.851852" vertical-offset="157" max-vertical-offset="936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="36" selection-start="224" selection-end="224" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="234">
@@ -443,9 +451,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="1" selection-start="515" selection-end="515" vertical-scroll-proportion="-8.185185" vertical-offset="157" max-vertical-offset="954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.16816431" vertical-offset="139" max-vertical-offset="990">
+        <state line="25" column="36" selection-start="343" selection-end="343" vertical-scroll-proportion="0.35301667" vertical-offset="175" max-vertical-offset="1062">
           <folding>
             <element signature="e#6#28#0" expanded="true" />
           </folding>
