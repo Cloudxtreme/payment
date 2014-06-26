@@ -69,7 +69,7 @@
                             foreach ($v['limits'] as $k => $v) {
                                 $out .= $v . " " . $k . ", ";
                             }
-                            $out .= substr ($v, 0, -2) . ".)";
+                            $out = substr ($v, 0, -2) . ".)";
 
                             echo $out;
                         ?>
