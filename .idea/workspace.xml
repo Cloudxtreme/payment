@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de664835-0d3b-4db0-987a-aa079c773d75" name="Default" comment="">
+    <list default="true" id="de664835-0d3b-4db0-987a-aa079c773d75" name="Default" comment="Plan list.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/CWResellerClient.php" afterPath="$PROJECT_DIR$/php/CWResellerClient.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cloudwalkers Order.iws" />
@@ -68,7 +67,7 @@
       <file leaf-file-name="CWResellerClient.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="40" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.35301667" vertical-offset="2083" max-vertical-offset="2898">
+            <state line="39" column="54" selection-start="770" selection-end="770" vertical-scroll-proportion="0.48523748" vertical-offset="324" max-vertical-offset="2898">
               <folding>
                 <element signature="e#6#28#0" expanded="true" />
               </folding>
@@ -482,7 +481,11 @@
       <created>1403802497179</created>
       <updated>1403802497179</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Plan list.">
+      <created>1403803151785</created>
+      <updated>1403803151785</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -618,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="40" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.35301667" vertical-offset="2083" max-vertical-offset="2898">
+        <state line="39" column="54" selection-start="770" selection-end="770" vertical-scroll-proportion="0.48523748" vertical-offset="324" max-vertical-offset="2898">
           <folding>
             <element signature="e#6#28#0" expanded="true" />
           </folding>

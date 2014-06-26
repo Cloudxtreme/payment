@@ -37,7 +37,7 @@ class CWResellerClient {
 		openssl_sign ($json, $signature, $privatekey);
 
 		$get['signature'] = base64_encode ($signature);
-		$get['debug'] = 1;
+		$get['debug'] = isset ($_GET['debug']) ? 1 : 0;
 
 		return $get;
 	}
