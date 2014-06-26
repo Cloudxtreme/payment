@@ -46,3 +46,5 @@ define ('CWRESELLER_PRIVATE_KEY', dirname (dirname (__FILE__)) . '/signature/pri
 define ('CWRESELLER_PRIVATE_PUBLIC', dirname (dirname (__FILE__)) . '/signature/public.pem');
 
 define ('CWRESELLER_OAUTH2_APPID', 'oauth253ac29c185dbd5.38393073');
+
+define ('TEMPLATE_DIR', dirname (dirname (__FILE__)) . '/templates/');
