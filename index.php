@@ -12,7 +12,10 @@ require_once 'include.php';
 	</head>
 
 	<body>
-		<?php echo cw_get_order_form_html (); ?>
+
+		<div id="container">
+			<?php echo cw_get_order_form_html (); ?>
+		</div>
 	</body>
 
 </html>

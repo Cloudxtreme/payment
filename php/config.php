@@ -37,3 +37,6 @@ if (!defined ('DB_NAME'))
 {
 	define ('DB_NAME', 'cloudwalkers_order');
 }
+
+define ('CWRESELLER_PRIVATE_KEY', dirname (dirname (__FILE__)) . '/signature/private.pem');
+define ('CWRESELLER_PRIVATE_PUBLIC', dirname (dirname (__FILE__)) . '/signature/public.pem');

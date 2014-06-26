@@ -6,6 +6,11 @@ require_once 'php/bootstrap.php';
 
 function cw_get_order_form_html ()
 {
-	$out = 'we are using database ' . DB_HOST;
+	$client = new CWResellerClient ();
+
+	$out = '<pre>';
+	$out .= print_r ($client->post (array ('test' => 1)), true);
+	$out .= '</pre>';
+
 	return $out;
 }

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de664835-0d3b-4db0-987a-aa079c773d75" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signature/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/CWResellerClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/bootstrap.php" afterPath="$PROJECT_DIR$/php/bootstrap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/config.php" afterPath="$PROJECT_DIR$/php/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include.php" afterPath="$PROJECT_DIR$/include.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cloudwalkers Order.iws" />
@@ -29,7 +34,7 @@
       <file leaf-file-name="include.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="132" selection-end="132" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="288">
+            <state line="15" column="1" selection-start="311" selection-end="311" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378">
               <folding />
             </state>
           </provider>
@@ -38,17 +43,37 @@
       <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="26" selection-start="33" selection-end="33" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="144">
+            <state line="3" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="162">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.42233634" vertical-offset="13" max-vertical-offset="792">
+            <state line="26" column="1" selection-start="584" selection-end="584" vertical-scroll-proportion="-14.851851" vertical-offset="67" max-vertical-offset="846">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/signature/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CWResellerClient.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.27727857" vertical-offset="0" max-vertical-offset="779">
+              <folding>
+                <element signature="e#6#89#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,7 +81,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="48" selection-start="118" selection-end="118" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="414">
+            <state line="4" column="2" selection-start="38" selection-end="38" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="468">
               <folding />
             </state>
           </provider>
@@ -76,9 +101,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/php/CWClient.php" />
+        <option value="$PROJECT_DIR$/signature/.htaccess" />
         <option value="$PROJECT_DIR$/php/bootstrap.php" />
-        <option value="$PROJECT_DIR$/include.php" />
         <option value="$PROJECT_DIR$/php/config.php" />
+        <option value="$PROJECT_DIR$/include.php" />
+        <option value="$PROJECT_DIR$/php/CWResellerClient.php" />
       </list>
     </option>
   </component>
@@ -131,6 +159,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cloudwalkers-order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cloudwalkers Order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cloudwalkers-order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="signature" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,7 +287,11 @@
       <created>1403789384600</created>
       <updated>1403789384600</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Initial commit.">
+      <created>1403789457804</created>
+      <updated>1403789457804</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -292,31 +338,61 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/signature/private.pem">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="48" selection-start="118" selection-end="118" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="132" selection-end="132" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="33" selection-end="33" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="144">
+        <state line="9" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.20099255" vertical-offset="0" max-vertical-offset="806">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.42233634" vertical-offset="13" max-vertical-offset="792">
+        <state line="26" column="1" selection-start="584" selection-end="584" vertical-scroll-proportion="-14.851851" vertical-offset="67" max-vertical-offset="846">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signature/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/openssl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="9" selection-start="5604" selection-end="5604" vertical-scroll-proportion="0.34464753" vertical-offset="2652" max-vertical-offset="19782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="38" selection-end="38" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="311" selection-end="311" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.27727857" vertical-offset="0" max-vertical-offset="779">
+          <folding>
+            <element signature="e#6#89#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
