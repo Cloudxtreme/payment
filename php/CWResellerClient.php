@@ -85,5 +85,72 @@ class CWResellerClient {
 		return $id;
 	}
 
+	public function addLicense ($accountId, $planId, $start, $end)
+	{
+		echo '<h1>Adding license</h1>';
 
+		$request = new Request (CWRESELLER_API . '1/accounts/' . $accountId . '/licenses');
+
+		$body = array ();
+		$body['plan'] = $planId;
+		$body['start'] = date ('c', $start);
+		$body['end'] = date ('c', $end);
+
+		$request->setJSON ($body);
+
+		$request->setQuery ($this->sign (json_encode ($body)));
+
+		$response = Client::getInstance ()->post ($request);
+
+		echo "<h2>Posting to</h2>";
+		var_dump ($request->getUrl ());
+
+		echo "<h2>Content</h2>";
+		var_dump ($request->getBody ());
+
+		echo "<h2>Response</h2>";
+		var_dump ($response->getBody());
+
+		$data = $response->data ();
+
+		$id = $data['license']['plan'];
+
+		echo '<h2>GOT PLAN ID ' . $id . '</h2>';
+		return $id;
+	}
+
+	public function addUser ($accountId, $email, $password, $firstname, $lastname)
+	{
+		echo '<h1>Adding user</h1>';
+
+		$request = new Request (CWRESELLER_API . '1/accounts/' . $accountId . '/users');
+
+		$body = array ();
+		$body['email'] = $email;
+		$body['name'] = $lastname;
+		$body['password'] = $password;
+		$body['firstName'] = $firstname;
+
+		$request->setJSON ($body);
+
+		$request->setQuery ($this->sign (json_encode ($body)));
+
+		$response = Client::getInstance ()->post ($request);
+
+		echo "<h2>Posting to</h2>";
+		var_dump ($request->getUrl ());
+
+		echo "<h2>Content</h2>";
+		var_dump ($request->getBody ());
+
+		echo "<h2>Response</h2>";
+		var_dump ($response->getBody());
+
+		$data = $response->data ();
+
+		$id = $data['user']['id'];
+
+		echo '<h2>GOT USER ID ' . $id . '</h2>';
+		return $id;
+	}
 } 
