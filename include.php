@@ -9,7 +9,7 @@ function cw_get_order_form_html ()
 	$client = new CWResellerClient ();
 
 	$out = '<pre>';
-	$out .= print_r ($client->post (array ('test' => 1)), true);
+	$out .= print_r ($client->getPlans (), true);
 	$out .= '</pre>';
 
 	return $out;

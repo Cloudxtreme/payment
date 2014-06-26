@@ -38,5 +38,10 @@ if (!defined ('DB_NAME'))
 	define ('DB_NAME', 'cloudwalkers_order');
 }
 
+define ('CWRESELLER_RESELLER_ID', 1);
+define ('CWRESELLER_API', 'https://devapi.cloudwalkers.be/');
+
 define ('CWRESELLER_PRIVATE_KEY', dirname (dirname (__FILE__)) . '/signature/private.pem');
 define ('CWRESELLER_PRIVATE_PUBLIC', dirname (dirname (__FILE__)) . '/signature/public.pem');
+
+define ('CWRESELLER_OAUTH2_APPID', 'oauth253ac29c185dbd5.38393073');
