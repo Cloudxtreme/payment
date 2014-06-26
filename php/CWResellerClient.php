@@ -18,32 +18,34 @@ class CWResellerClient {
 
 	/**
 	 * Sign an array of data.
-	 * @param $data
+	 * @param $postbody
+	 * @internal param $post
 	 * @return string
 	 */
-	private function sign (&$data)
+	private function sign ($postbody = '')
 	{
-		$json = json_encode ($data);
+		$get = array ();
+		$get['time'] = time ();
+		$get['random'] = mt_rand ();
+		$get['reseller'] = CWRESELLER_RESELLER_ID;
+
+		$json = implode (',', $get) . '|' . $postbody;
 
 		$privatekey = openssl_get_privatekey ('file://' . CWRESELLER_PRIVATE_KEY);
 
 		$signature = null;
 		openssl_sign ($json, $signature, $privatekey);
 
-		return base64_encode ($signature);
+		$get['signature'] = base64_encode ($signature);
+
+		return $get;
 	}
 
 	public function getPlans ()
 	{
 		$request = new Request (CWRESELLER_API . 'reseller/' . CWRESELLER_RESELLER_ID . '/plans');
 
-		$data = array ();
-		$data['time'] = time ();
-		$data['random'] = mt_rand ();
-		$data['signature'] = $this->sign ($data);
-		$data['reseller'] = CWRESELLER_RESELLER_ID;
-
-		$request->setQuery ($data);
+		$request->setQuery ($this->sign ());
 
 		$response = Client::getInstance ()->get ($request);
 
