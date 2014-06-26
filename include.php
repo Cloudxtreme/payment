@@ -6,5 +6,6 @@ require_once 'php/bootstrap.php';
 
 function cw_get_order_form_html ()
 {
-	return '<p>Hello world, this is an order form. I come from GIT.</p>';
+	$out = 'we are using database ' . DB_HOST;
+	return $out;
 }
