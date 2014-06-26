@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de664835-0d3b-4db0-987a-aa079c773d75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/Neuron/Net/Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/Neuron/Net/Request.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/Neuron/Net/Response.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/CWResellerClient.php" afterPath="$PROJECT_DIR$/php/CWResellerClient.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/bootstrap.php" afterPath="$PROJECT_DIR$/php/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/config.php" afterPath="$PROJECT_DIR$/php/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include.php" afterPath="$PROJECT_DIR$/include.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/Neuron/Core/Template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cloudwalkers Order.iws" />
@@ -71,7 +65,7 @@
       <file leaf-file-name="CWResellerClient.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="501" selection-end="501" vertical-scroll-proportion="0.53786904" vertical-offset="139" max-vertical-offset="990">
+            <state line="15" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.16816431" vertical-offset="139" max-vertical-offset="990">
               <folding>
                 <element signature="e#6#28#0" expanded="true" />
               </folding>
@@ -342,7 +336,11 @@
       <created>1403791466202</created>
       <updated>1403791466202</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Initial commit.">
+      <created>1403792568094</created>
+      <updated>1403792568094</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -447,7 +445,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="501" selection-end="501" vertical-scroll-proportion="0.53786904" vertical-offset="139" max-vertical-offset="990">
+        <state line="15" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.16816431" vertical-offset="139" max-vertical-offset="990">
           <folding>
             <element signature="e#6#28#0" expanded="true" />
           </folding>
