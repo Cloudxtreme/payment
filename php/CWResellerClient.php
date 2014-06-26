@@ -49,7 +49,7 @@ class CWResellerClient {
 
 		$response = Client::getInstance ()->get ($request);
 
-		var_dump ($response->getBody());
+		//var_dump ($response->getBody());
 
 		return $response->data ();
 	}

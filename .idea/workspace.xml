@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de664835-0d3b-4db0-987a-aa079c773d75" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/CWResellerClient.php" afterPath="$PROJECT_DIR$/php/CWResellerClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/config.php" afterPath="$PROJECT_DIR$/php/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cloudwalkers Order.iws" />
@@ -47,7 +48,7 @@
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="1" selection-start="515" selection-end="515" vertical-scroll-proportion="-8.185185" vertical-offset="157" max-vertical-offset="954">
+            <state line="41" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="-21.518518" vertical-offset="157" max-vertical-offset="954">
               <folding />
             </state>
           </provider>
@@ -65,7 +66,7 @@
       <file leaf-file-name="CWResellerClient.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="5" selection-start="350" selection-end="350" vertical-scroll-proportion="0.2143774" vertical-offset="283" max-vertical-offset="1098">
+            <state line="51" column="10" selection-start="967" selection-end="967" vertical-scroll-proportion="0.81514764" vertical-offset="283" max-vertical-offset="1098">
               <folding>
                 <element signature="e#6#28#0" expanded="true" />
               </folding>
@@ -362,7 +363,11 @@
       <created>1403794114007</created>
       <updated>1403794114007</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Plan list.">
+      <created>1403795211609</created>
+      <updated>1403795211609</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -450,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="515" selection-end="515" vertical-scroll-proportion="-8.185185" vertical-offset="157" max-vertical-offset="954">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="36" selection-start="224" selection-end="224" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="234">
@@ -478,9 +476,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="-21.518518" vertical-offset="157" max-vertical-offset="954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="350" selection-end="350" vertical-scroll-proportion="0.2143774" vertical-offset="283" max-vertical-offset="1098">
+        <state line="51" column="10" selection-start="967" selection-end="967" vertical-scroll-proportion="0.81514764" vertical-offset="283" max-vertical-offset="1098">
           <folding>
             <element signature="e#6#28#0" expanded="true" />
           </folding>
