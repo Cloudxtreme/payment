@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de664835-0d3b-4db0-987a-aa079c773d75" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include.php" afterPath="$PROJECT_DIR$/include.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/config.php" afterPath="$PROJECT_DIR$/php/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cloudwalkers Order.iws" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="include.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="include.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="16" selection-start="217" selection-end="217" vertical-scroll-proportion="0.20795892" vertical-offset="0" max-vertical-offset="779">
+            <state line="6" column="9" selection-start="132" selection-end="132" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="288">
               <folding />
             </state>
           </provider>
@@ -44,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="29" selection-start="458" selection-end="458" vertical-scroll-proportion="-11.518518" vertical-offset="13" max-vertical-offset="792">
+            <state line="19" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.42233634" vertical-offset="13" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
@@ -77,8 +77,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/bootstrap.php" />
-        <option value="$PROJECT_DIR$/php/config.php" />
         <option value="$PROJECT_DIR$/include.php" />
+        <option value="$PROJECT_DIR$/php/config.php" />
       </list>
     </option>
   </component>
@@ -241,7 +241,11 @@
       <created>1403789359262</created>
       <updated>1403789359262</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Initial commit.">
+      <created>1403789384600</created>
+      <updated>1403789384600</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -249,7 +253,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2529371" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2529371" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -295,6 +299,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="132" selection-end="132" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="26" selection-start="33" selection-end="33" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="144">
@@ -304,14 +315,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="458" selection-end="458" vertical-scroll-proportion="-11.518518" vertical-offset="13" max-vertical-offset="792">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="217" selection-end="217" vertical-scroll-proportion="0.20795892" vertical-offset="0" max-vertical-offset="779">
+        <state line="19" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.42233634" vertical-offset="13" max-vertical-offset="792">
           <folding />
         </state>
       </provider>
