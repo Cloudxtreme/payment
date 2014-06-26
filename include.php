@@ -5,5 +5,5 @@
 
 function cw_get_order_form_html ()
 {
-	return '<p>Hello world, this is an order form.</p>';
+	return '<p>Hello world, this is an order form. I come from GIT.</p>';
 }
