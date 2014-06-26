@@ -9,5 +9,5 @@ if (file_exists ($dbfile))
 }
 else
 {
-	echo 'db file found (' . $dbfile . ')';
+	echo 'db file not found (' . $dbfile . ')';
 }
