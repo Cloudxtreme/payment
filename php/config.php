@@ -1,13 +1,13 @@
 <?php
 
 // Load database settings
-$dbfile = dirname (__FILE__) . 'includes/db.php';
+$dbfile = dirname (dirname (__FILE__)) . 'includes/db.php';
 
 if (file_exists ($dbfile))
 {
-	echo 'db file found.';
+	echo 'db file found (' . $dbfile . ')';
 }
 else
 {
-	echo 'no db file found.';
+	echo 'db file found (' . $dbfile . ')';
 }
