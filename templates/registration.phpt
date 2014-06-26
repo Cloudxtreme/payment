@@ -1,4 +1,10 @@
+<?php foreach ($errors as $v) { ?>
+    <p class="error"><?php echo $v; ?></p>
+<?php } ?>
+
 <form method="POST">
+    <input type="hidden" class="hidden" name="action" value="submit" />
+
     <fieldset>
 
         <legend>Your information</legend>
@@ -7,27 +13,27 @@
 
             <li>
                 <label for="firstName"><?php echo __('First name'); ?></label>
-                <input type="text" id="firstName" name="firstName" />
+                <input type="text" id="firstName" name="firstName" value="<?php echo $defaults['firstName']; ?>" />
             </li>
 
             <li>
                 <label for="name"><?php echo __('Last name'); ?></label>
-                <input type="text" id="name" name="name" />
+                <input type="text" id="name" name="name" value="<?php echo $defaults['name']; ?>" />
             </li>
 
             <li>
                 <label for="email"><?php echo __('Email'); ?></label>
-                <input type="text" id="email" name="email" />
+                <input type="text" id="email" name="email" value="<?php echo $defaults['email']; ?>" />
             </li>
 
             <li>
                 <label for="password1"><?php echo __('Password'); ?></label>
-                <input type="text" id="password1" name="password1" />
+                <input type="password" id="password1" name="password1" />
             </li>
 
             <li>
                 <label for="password2"><?php echo __('Confirm password'); ?></label>
-                <input type="text" id="password2" name="password2" />
+                <input type="password" id="password2" name="password2" />
             </li>
 
         </ol>
@@ -40,7 +46,7 @@
         <ol>
             <li>
                 <label for="accountname"><?php echo __('Account name'); ?></label>
-                <input type="text" id="accountname" name="accountname" />
+                <input type="text" id="accountname" name="accountname" value="<?php echo $defaults['accountname']; ?>" />
             </li>
         </ol>
 

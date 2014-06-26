@@ -113,7 +113,7 @@ class CWResellerClient {
 
 		$data = $response->data ();
 
-		$id = $data['license']['plan'];
+		$id = $data['license']['id'];
 
 		echo '<h2>GOT PLAN ID ' . $id . '</h2>';
 		return $id;

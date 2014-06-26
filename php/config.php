@@ -48,3 +48,14 @@ define ('CWRESELLER_PRIVATE_PUBLIC', dirname (dirname (__FILE__)) . '/signature/
 define ('CWRESELLER_OAUTH2_APPID', 'oauth253ac29c185dbd5.38393073');
 
 define ('TEMPLATE_DIR', dirname (dirname (__FILE__)) . '/templates/');
+
+define ('TMP_PASSWORD_ENCRYPT', 'There is something shameful about doing this. But then again, we only store the password for a very short amount of time.');
+
+define ('BASE_URL', 'http://www.cloudwalkers.be/order/');
+
+// Pricing!
+$cwPricingConfig = array (
+	1 => 100.00,
+	2 => 200.00,
+	3 => 300.00
+);

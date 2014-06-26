@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de664835-0d3b-4db0-987a-aa079c773d75" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/Neuron/DB/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/Neuron/DB/MySQL.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/Neuron/DB/Query.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/Neuron/DB/Result.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/Neuron/Core/Tools.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloudwalkers_order.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registered.phpt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/CWResellerClient.php" afterPath="$PROJECT_DIR$/php/CWResellerClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/bootstrap.php" afterPath="$PROJECT_DIR$/php/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/callback.php" afterPath="$PROJECT_DIR$/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/config.php" afterPath="$PROJECT_DIR$/php/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include.php" afterPath="$PROJECT_DIR$/include.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/registration.phpt" afterPath="$PROJECT_DIR$/templates/registration.phpt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cloudwalkers Order.iws" />
@@ -26,19 +39,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="callback.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/callback.php">
+      <file leaf-file-name="include.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
+            <state line="24" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="2970">
+              <folding>
+                <element signature="e#88#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="66" selection-end="66" vertical-scroll-proportion="0.25417203" vertical-offset="0" max-vertical-offset="779">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.php">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="59" selection-start="272" selection-end="272" vertical-scroll-proportion="0.25417203" vertical-offset="0" max-vertical-offset="779">
+            <state line="53" column="17" selection-start="1431" selection-end="1439" vertical-scroll-proportion="-21.037037" vertical-offset="386" max-vertical-offset="1188">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registered.phpt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/registered.phpt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="45" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
               <folding />
             </state>
           </provider>
@@ -60,14 +93,17 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/CWClient.php" />
         <option value="$PROJECT_DIR$/signature/.htaccess" />
-        <option value="$PROJECT_DIR$/php/config.php" />
-        <option value="$PROJECT_DIR$/php/bootstrap.php" />
-        <option value="$PROJECT_DIR$/include.php" />
-        <option value="$PROJECT_DIR$/templates/registration.phpt" />
         <option value="$PROJECT_DIR$/php/Neuron/Net/Request.php" />
         <option value="$PROJECT_DIR$/php/Neuron/Net/Client.php" />
-        <option value="$PROJECT_DIR$/php/CWResellerClient.php" />
         <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/templates/registration.phpt" />
+        <option value="$PROJECT_DIR$/php/bootstrap.php" />
+        <option value="$PROJECT_DIR$/password.php" />
+        <option value="$PROJECT_DIR$/php/CWResellerClient.php" />
+        <option value="$PROJECT_DIR$/callback.php" />
+        <option value="$PROJECT_DIR$/templates/registered.phpt" />
+        <option value="$PROJECT_DIR$/php/config.php" />
+        <option value="$PROJECT_DIR$/include.php" />
       </list>
     </option>
   </component>
@@ -142,98 +178,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cloudwalkers Order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloudwalkers-order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cloudwalkers Order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloudwalkers-order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="signature" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cloudwalkers Order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloudwalkers-order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cloudwalkers Order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloudwalkers-order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Neuron" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cloudwalkers Order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloudwalkers-order" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Neuron" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloudwalkers-engine" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../catlab-games" />
     <property name="options.lastSelected" value="Errors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -243,6 +193,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -426,7 +377,11 @@
       <created>1403804003056</created>
       <updated>1403804003056</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Plan list.">
+      <created>1403804031014</created>
+      <updated>1403804031014</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -502,43 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="1" selection-start="654" selection-end="654" vertical-scroll-proportion="-14.185185" vertical-offset="175" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="311" selection-end="311" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="38" selection-start="708" selection-end="708" vertical-scroll-proportion="-15.407408" vertical-offset="322" max-vertical-offset="1080">
-          <folding>
-            <element signature="e#6#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/registration.phpt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1710">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="75" selection-end="75" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/Neuron/Net/Client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="5" selection-start="685" selection-end="685" vertical-scroll-proportion="0.40633246" vertical-offset="466" max-vertical-offset="1620">
@@ -553,25 +471,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration.phpt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="12" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="1" selection-start="836" selection-end="836" vertical-scroll-proportion="-14.074074" vertical-offset="250" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="50" selection-start="471" selection-end="471" vertical-scroll-proportion="0.25417203" vertical-offset="324" max-vertical-offset="2898">
-          <folding>
-            <element signature="e#6#28#0" expanded="true" />
-          </folding>
+        <state line="136" column="0" selection-start="2985" selection-end="2985" vertical-scroll-proportion="-67.40741" vertical-offset="610" max-vertical-offset="2880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudwalkers_order.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="65" selection-start="478" selection-end="478" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="1404">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/callback.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state line="15" column="6" selection-start="197" selection-end="197" vertical-scroll-proportion="74.0" vertical-offset="2268" max-vertical-offset="3708">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
+    <entry file="file://$PROJECT_DIR$/php/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="59" selection-start="272" selection-end="272" vertical-scroll-proportion="0.25417203" vertical-offset="0" max-vertical-offset="779">
+        <state line="53" column="17" selection-start="1431" selection-end="1439" vertical-scroll-proportion="-21.037037" vertical-offset="386" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registered.phpt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="45" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="418" selection-end="418" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="2970">
+          <folding>
+            <element signature="e#88#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="66" selection-end="66" vertical-scroll-proportion="0.25417203" vertical-offset="0" max-vertical-offset="779">
           <folding />
         </state>
       </provider>
