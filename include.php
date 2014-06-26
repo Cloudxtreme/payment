@@ -40,10 +40,7 @@ function cw_show_plans ()
 function cw_show_registration_form ()
 {
 	$client = new CWResellerClient ();
-
 	$plans = $client->getPlans ();
-
-	print_r ($plans);
 
 	if (!isset ($plans['reseller']))
 	{
