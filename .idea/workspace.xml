@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de664835-0d3b-4db0-987a-aa079c773d75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signature/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/CWResellerClient.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/bootstrap.php" afterPath="$PROJECT_DIR$/php/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/config.php" afterPath="$PROJECT_DIR$/php/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include.php" afterPath="$PROJECT_DIR$/include.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signature/private.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/signature/public.pem" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cloudwalkers Order.iws" />
@@ -70,7 +66,7 @@
       <file leaf-file-name="CWResellerClient.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.27727857" vertical-offset="0" max-vertical-offset="779">
+            <state line="8" column="24" selection-start="115" selection-end="115" vertical-scroll-proportion="0.18485238" vertical-offset="0" max-vertical-offset="779">
               <folding>
                 <element signature="e#6#89#0" expanded="true" />
               </folding>
@@ -291,7 +287,11 @@
       <created>1403789457804</created>
       <updated>1403789457804</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Initial commit.">
+      <created>1403790723120</created>
+      <updated>1403790723120</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -389,7 +389,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/CWResellerClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="0.27727857" vertical-offset="0" max-vertical-offset="779">
+        <state line="8" column="24" selection-start="115" selection-end="115" vertical-scroll-proportion="0.18485238" vertical-offset="0" max-vertical-offset="779">
           <folding>
             <element signature="e#6#89#0" expanded="true" />
           </folding>
