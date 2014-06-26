@@ -119,6 +119,11 @@ class Request {
 		return $this->body;
 	}
 
+	public function getBody ()
+	{
+		return $this->body;
+	}
+
 	public function getApplication ()
 	{
 		return 0;

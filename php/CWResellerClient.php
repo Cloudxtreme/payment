@@ -46,11 +46,36 @@ class CWResellerClient {
 		$request = new Request (CWRESELLER_API . 'reseller/' . CWRESELLER_RESELLER_ID . '/plans');
 
 		$request->setQuery ($this->sign ());
-
 		$response = Client::getInstance ()->get ($request);
-
-		var_dump ($response->getBody ());
 
 		return $response->data ();
 	}
+
+	public function createAccount ($accountName, $planId)
+	{
+		$request = new Request (CWRESELLER_API . 'reseller/' . CWRESELLER_RESELLER_ID . '/account');
+
+		$body = array ();
+		$body['name'] = $accountName;
+		$body['plan'] = $planId;
+
+		$request->setBody (json_encode ($body));
+
+		$request->setQuery ($this->sign (json_encode ($body)));
+
+		$response = Client::getInstance ()->post ($request);
+
+		echo "<h1>Posting to</h1>";
+		var_dump ($request->getUrl ());
+
+		echo "<h1>Content</h1>";
+		var_dump ($request->getBody ());
+
+		echo "<h1>Response</h1>";
+		var_dump ($response->getBody());
+
+		return $response->data ();
+	}
+
+
 } 

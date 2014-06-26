@@ -53,9 +53,27 @@
         <ol>
 
             <?php foreach ($plans as $v) { ?>
+
+                <!--
+                    <?php print_r ($v); ?>
+                -->
+
                 <li>
-                    <input type="radio" name="plan<?php echo $v['id']; ?>" value="1" />
-                    <label for="plan1"><?php echo $v['name']; ?></label>
+                    <input type="radio" id="plan<?php echo $v['id']; ?>" name="plan" value="1" />
+                    <label for="plan<?php echo $v['id']; ?>">
+                        <?php echo $v['name']; ?>
+
+                        <!-- Limits, feel free to remove. -->
+                        <?php
+                            $out = "(";
+                            foreach ($v['limits'] as $k => $v) {
+                                $out .= $v . " " . $k . ", ";
+                            }
+                            $out .= substr ($v, 0, -2) . ".)";
+
+                            echo $out;
+                        ?>
+                    </label>
                 </li>
             <?php } ?>
         </ol>
